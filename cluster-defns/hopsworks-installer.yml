@@ -25,8 +25,8 @@ attrs:
       detect-hardware-capabilities: false
     rmappsecurity:
       actor_class: "org.apache.hadoop.yarn.server.resourcemanager.security.DevHopsworksRMAppSecurityActions"
-#  maggy:
-#    version: "git+git://github.com/logicalclocks/maggy@master"
+  maggy:
+    version: "git+git://github.com/tabularaza27/maggy@pruner-experiment"
   kagent:
     python_conda_versions: 3.6
 #  conda:
